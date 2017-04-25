@@ -1,0 +1,34 @@
+/*conmon*/
+.w1024{max-width: 1024px;}
+.f-w100{width: 100%; margin: 0 auto;}
+.f-mc{margin: 0 auto;}
+.mb30{margin-bottom: 30px;}
+.mt30{margin-top: 30px;}
+.f-pr{position:relative;}
+.f-fl{float:left;}
+.f-fr{float:right;}
+.f-oh{overflow:hidden;}
+.f-dn{display:none;}
+.f-db{display:block;}
+.f-ib{display:inline-block;*display:inline;*zoom:1;}
+.f-cb:after{display:block;clear:both;visibility:hidden;height:0;overflow:hidden;content:".";}
+.f-fs12{font-size: 1.2rem;}
+.f-fs14{font-size: 1.4rem;}
+.f-fs16{font-size: 1.6rem;}
+.f-fs18{font-size: 1.8rem;}
+.f-fs20{font-size: 2rem;}
+.f-ti{overflow:hidden;text-indent:-30000px;}
+.f-ti2{text-indent:2em;}
+.f-csp{cursor:pointer;}
+.f-fwn{font-weight:normal;}
+.f-fwb{font-weight:bold;}
+.f-tal{text-align:left;}
+.f-tac{text-align:center;}
+.f-tar{text-align:right;}
+/* 单行文本截断 */
+.f-text-truncate{
+    word-wrap: normal; /* for IE */  
+    text-overflow: ellipsis;  
+    white-space: nowrap;
+    overflow: hidden;
+}
